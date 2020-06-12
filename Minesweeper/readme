@@ -1,1 +1,7 @@
 Minesweeperパッケージ
+
+変更点
+ButtonWithCoordinatesでsetEnableをOverrideし、
+その中でsuper.setEnable()を呼ぶ代わりに、this.setBackground(Color.WHITE);とした
+
+色の設定は<html><font color="color">を使用
